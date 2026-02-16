@@ -316,22 +316,30 @@ const FullProject = () => {
             <h3 className="font-semibold mb-5 text-lg">Connect</h3>
             <div className="space-y-4">
               <div className="flex items-center gap-3">
-                <img src={facebook} className="w-6" />
+                <a href="https://www.facebook.com/" target="blank">
+                  <img src={facebook} className="w-6" />
+                </a>
                 <p className="font-medium">Facebook</p>
               </div>
 
               <div className="flex items-center gap-3">
-                <img src={twitter} className="w-6" />
+                <a href="https://www.twitter.new/" target="blank">
+                  <img src={twitter} className="w-6" />
+                </a>
                 <p className="font-medium">Twitter</p>
               </div>
 
               <div className="flex items-center gap-3">
-                <img src={github} className="w-6" />
+                <a href="https://github.com/" target="blank">
+                  <img src={github} className="w-6" />
+                </a>
                 <p className="font-medium">Github</p>
               </div>
 
               <div className="flex items-center gap-3">
-                <img src={drible} className="w-6" />
+                <a href="https://dribbble.com/" target="blank">
+                  <img src={drible} className="w-6" />
+                </a>
                 <p className="font-medium">Dribbble</p>
               </div>
             </div>
